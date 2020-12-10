@@ -1,4 +1,5 @@
 #pkg installer
+clear
 echo " "
 echo -e " \e[91m         ███████╗███████╗████████╗██╗   ██╗██████╗ \e[0m"
 echo -e " \e[91m         ██╔════╝██╔════╝╚══██╔══╝██║   ██║██╔══██╗\e[0m"
@@ -30,20 +31,19 @@ echo -e "\e[91m      |-----------------------------------------------------|"
 echo -e "\e[91m      |-----------------------\e[0mFEATURES\e[91m----------------------|"
 echo -e "\e[91m      |-----------------------------------------------------|"
 echo " "
-sleep 1m 2s
-sleep 8.0
+sleep 1m
 apt-get update 
 apt-get upgrade
 termux-setup-storage
-pkg install git -y
-pkg install zip -y
-pkg install mpv -y
-pkg install wget -y
-pkg install openssh -y
-pkg install python -y
-pkg install python2 -y
-pkg install openssl-tool -y
-pkg install php -y
+pkg install git 
+pkg install zip 
+pkg install mpv
+pkg install wget 
+pkg install openssh
+pkg install python
+pkg install python2
+pkg install openssl-tool
+pkg install php
 pip install lolcat
 clear
 am start -a android.intent.action.VIEW -d https://bit.ly/nhytchannel
