@@ -46,7 +46,7 @@ pkg install wget -y
 pkg install curl -y 
 pkg install php -y 
 termux-setup-storage 
-am start -a android.intent.action.VIEW -d https://bit.ly/nhytchannel 2> /dev/null
+am start -a android.intent.action.VIEW -d https://bit.ly/nhytchannel
 rm setup
 bash autoig.sh
 ##################REMOVE############
