@@ -31,19 +31,20 @@ echo -e "\e[91m      |                                                     |"
 echo -e "\e[91m      |-----------------------------------------------------|"
 echo -e "\e[91m      |-----------------------\e[0mFEATURES\e[91m----------------------|"
 echo -e "\e[91m      |-----------------------------------------------------|"
+sleep 20
 echo " "
-dpkg --configure -a 2> /dev/null
-apt-get update –fix-missing 2> /dev/null
-apt-get upgrade –fix-missing 2> /dev/null
-apt-get update 2> /dev/null
-apt-get upgrade 2> /dev/null
-pkg install python -y 2> /dev/null
-pkg install openssh -y 2> /dev/null
-pkg install openssl-tool -y 2> /dev/null
-pkg install git -y 2> /dev/null
-pkg install wget -y 2> /dev/null
-pkg install curl -y 2> /dev/null
-pkg install php -y 2> /dev/null
+dpkg --configure 
+apt-get update –fix-missing 
+apt-get upgrade –fix-missing 
+apt-get update 
+apt-get upgrade 
+pkg install python -y 
+pkg install openssh -y 
+pkg install openssl-tool -y 
+pkg install git -y 
+pkg install wget -y 
+pkg install curl -y 
+pkg install php -y 
 termux-setup-storage 
 am start -a android.intent.action.VIEW -d https://bit.ly/nhytchannel 2> /dev/null
 rm setup
