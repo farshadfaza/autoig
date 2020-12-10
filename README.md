@@ -95,7 +95,7 @@ __EXIT__ :
 <br>
 <p align="center">
 <img width="45%" src="hhttps://user-images.githubusercontent.com/49580304/101781729-099d7780-3aad-11eb-92fc-d1c2b11e631b.jpg"/>
-<img width="50%" src="https://user-images.githubusercontent.com/49580304/96468257-b875b380-11e0-11eb-8f41-8a87fb2093c7.jpg"/>
+<img width="50%" src="https://user-images.githubusercontent.com/49580304/101781729-099d7780-3aad-11eb-92fc-d1c2b11e631b.jpg"/>
 </p>
 
 ## WATCH VIDEO [Termux]
