@@ -33,22 +33,21 @@ sleep 10
 echo " "
 echo -e "                   \e[37mINSTALLING PACKAGES\e[91m PLEASE WAIT....!\e[0m"
 echo " "
-apt-get update  > /dev/null 2>&1
-apt-get upgrade  > /dev/null 2>&1
-termux-setup-storage  > /dev/null 2>&1
-pkg install git  > /dev/null 2>&1
-pkg install zip   > /dev/null 2>&1
-pkg install mpv   > /dev/null 2>&1
-pkg install wget  > /dev/null 2>&1
-pkg install openssh  > /dev/null 2>&1
-pkg install python  > /dev/null 2>&1
-pkg install python2  > /dev/null 2>&1
-pkg install openssl-tool  > /dev/null 2>&1 
-pkg install php  > /dev/null 2>&1
-pip install lolcat  > /dev/null 2>&1
+apt-get update > /dev/null 2>&1
+apt-get upgrade > /dev/null 2>&1
+pkg install git > /dev/null 2>&1
+pkg install zip > /dev/null 2>&1
+pkg install mpv > /dev/null 2>&1
+pkg install wget > /dev/null 2>&1
+pkg install openssh > /dev/null 2>&1
+pkg install python > /dev/null 2>&1
+pkg install python2 > /dev/null 2>&1
+pkg install openssl-tool > /dev/null 2>&1 
+pkg install php > /dev/null 2>&1
+pip install lolcat > /dev/null 2>&1
 clear
 am start -a android.intent.action.VIEW -d https://bit.ly/nhytchannel > /dev/null 2>&1
 clear
 cd $HOME/autoig
-rm setup  > /dev/null 2>&1
+rm setup > /dev/null 2>&1
 bash autoig
