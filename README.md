@@ -2,7 +2,7 @@
 <a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Mrphish-green.svg"></a>
+<a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Autoig-green.svg"></a>
 <a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="Version" src="https://img.shields.io/badge/Version-1.0-green.svg?style=flat-square"></a>
 <a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
 </p>
@@ -66,29 +66,44 @@ Autoig is a bash based script which is officially made for unlimited instagram f
 * `cd autoig`
 * `ls`
 * `bash setup` 
-* `bash autoig.sh`
+* `bash autoig`
 ```
 [+]-- Always use saved cookies to solve issues
 ```
 ## USAGE OPTIONS [Termux] :
 
-__START ATTACK__ :
-- From this option you can start attack and explore available option in tool Type ok in next step.
+__UNFOLLOW TRACKER__ :
+- From this option you can get list of people who unfollowed you.
 
-__DUMPS__ :
-- From this option you can get old saved dumps of all ids.
+__INCREASE FOLLOWERS__ :
+- From this option you can get unlimited followers.
 
-__ABOUT__ :
-- From this option you can know more about author.
+__DOWNLOAD STORIES__ :
+- From this option you can download instagram stories.
 
-__UPDATE__ :
-- From this option you can update mrphish tool if updates are available for that.
+__DOWNLOAD SAVED POSTS__ :
+- From this option you can download the saved posts from your instagram account.
 
-__SUBSCRIBE__ :
-- From this option you can easily subscribe our official channel.
+__DOWNLOAD FOLLOWING LIST__ :
+- From this option you can get list of the people you are following.
 
-__EXIT__ :
-- From this option you can exit from tool 
+__DOWNLOAD FOLLOWERS LIST__ :
+- From this option you can get list of your instagram followers.
+
+__DOWNLOAD PROFILE INFO__ :
+- From this option you can download the bio/profile info.
+
+__ACTIVATE UNFOLLOWER__ :
+- From this option you can unfollow the people you are following.
+
+__SUBSCRIBE NOOB HACKERS__ :
+- From this option you can subscribe our channel.
+
+__UPDATENOW AUTOIG__ :
+- From this option you can update the autoig tool if there is a latest update.
+
+__EXIT FROM SCRIPT__ :
+- From this option you can exit from tool. 
 
 ## SCREEN SHOTS [Termux]
 
