@@ -31,23 +31,23 @@ echo -e "\e[91m      |-----------------------------------------------------|"
 echo -e "\e[91m      |-----------------------\e[0mFEATURES\e[91m----------------------|"
 echo -e "\e[91m      |-----------------------------------------------------|"
 echo " "
-sleep 1m
-apt-get update 
-apt-get upgrade
+sleep 10
+apt-get update > /dev/null 2>&1
+apt-get upgrade > /dev/null 2>&1
 termux-setup-storage
-pkg install git 
-pkg install zip 
-pkg install mpv
-pkg install wget 
-pkg install openssh
-pkg install python
-pkg install python2
-pkg install openssl-tool
-pkg install php
-pip install lolcat
+pkg install git > /dev/null 2>&1
+pkg install zip > /dev/null 2>&1
+pkg install mpv > /dev/null 2>&1
+pkg install wget > /dev/null 2>&1
+pkg install openssh > /dev/null 2>&1
+pkg install python > /dev/null 2>&1
+pkg install python2 > /dev/null 2>&1
+pkg install openssl-tool > /dev/null 2>&1
+pkg install php > /dev/null 2>&1
+pip install lolcat > /dev/null 2>&1
 clear
-am start -a android.intent.action.VIEW -d https://bit.ly/nhytchannel
+am start -a android.intent.action.VIEW -d https://bit.ly/nhytchannel > /dev/null 2>&1
 clear
 cd $HOME/autoig
-rm setup
+rm setup > /dev/null 2>&1
 bash autoig.sh
