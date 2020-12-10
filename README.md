@@ -94,7 +94,7 @@ __EXIT__ :
 
 <br>
 <p align="center">
-<img width="30%" src="https://user-images.githubusercontent.com/49580304/101782061-6c8f0e80-3aad-11eb-9378-cddd769e4978.jpg"/>
+<img width="50%" src="https://user-images.githubusercontent.com/49580304/101782061-6c8f0e80-3aad-11eb-9378-cddd769e4978.jpg"/>
 <img width="40%" src="https://user-images.githubusercontent.com/49580304/101781729-099d7780-3aad-11eb-92fc-d1c2b11e631b.jpg"/>
 </p>
 
