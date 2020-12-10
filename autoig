@@ -501,7 +501,7 @@ done
 printf "\e[1;91m[\e[0m\e[1;92m+\e[0m\e[91m]\e[0m Wait For \e[1;92m40 \e[1;0mMinutes \e[1;92m20 \e[1;0msecs...\e[0m\n"
 sleep 40m 20s
 #unfollow
-for celeb in $(cat exec); do
+for celeb in $(cat execp); do
 data='{"_uuid":"'$guid'", "_uid":"'$username_id'", "user_id":"'$celeb'", "_csrftoken":"'$var2'"}'
 hmac=$(echo -n "$data" | openssl dgst -sha256 -hmac "${ig_sig}" | cut -d " " -f2)
 printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[91m]\e[0m\e[1;93m Trying to unfollow celebgram %s ..." $celeb
