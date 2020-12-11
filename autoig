@@ -484,7 +484,7 @@ check_follow=$(curl -s -L -b cookie.$user -d "ig_sig_key_version=4&signed_body=$
 
 if [[ $check_follow == "" ]]; then
 echo " "
-printf "                              \n\e[1;91m [!] Error\n"
+printf "                                       \n\e[91m [!] Error OR Password is wrong\n"
 echo " "
 printf "      \e[91m[\e[0mUSE SAVED COOKIES TO SOLVE THIS ERROR\e[91m]\e[0m"
 echo " "
