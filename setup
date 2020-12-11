@@ -32,9 +32,11 @@ echo -e "\e[91m      |-----------------------------------------------------|"
 sleep 10
 echo " "
 echo -e "                   \e[37mINSTALLING PACKAGES\e[91m PLEASE WAIT....!\e[0m"
+echo -e "            \e[37mTHIS MAY TAKE  MORE THAN\e[91m 20 MINUTES SO WAIT....!\e[0m"
 echo " "
 apt-get update > /dev/null 2>&1
 apt-get upgrade > /dev/null 2>&1
+echo -e "             \e[37mYOUR INTERNET CONNECTION\e[91m IS SLOW PLEASE WAIT....!\e[0m"
 pkg install git > /dev/null 2>&1
 pkg install zip > /dev/null 2>&1
 pkg install mpv > /dev/null 2>&1
